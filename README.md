@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/interactive-rating-component-html-css-sass-js-5wLf4u8UxO)
-- Live Site URL: [Add live site URL here](https://chic-daifuku-dacf07.netlify.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-component-html-css-sass-js-5wLf4u8UxO](https://www.frontendmentor.io/solutions/interactive-rating-component-html-css-sass-js-5wLf4u8UxO)
+- Live Site URL: [https://chic-daifuku-dacf07.netlify.app/](https://chic-daifuku-dacf07.netlify.app/)
 
 ## My process
 
@@ -59,5 +59,5 @@ Learn more about css custom properties.
 ## Author
 
 - Website - [Gwenaël Magnenat](https://github.com/gmagnenat)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/gmagnenat)
+- Frontend Mentor - [@gmagnenat](https://www.frontendmentor.io/profile/gmagnenat)
 - Twitter - [@magnenatg](https://www.twitter.com/magnenatg)
