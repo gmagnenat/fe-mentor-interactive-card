@@ -1,0 +1,152 @@
+@use 'base';
+
+h1 {
+	font-size: var(--heading-font-size);
+	letter-spacing: -0.08rem;
+	color: var(--heading-font-color);
+}
+
+.body {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	position: relative;
+	height: 100%;
+	min-height: 100vh;
+	line-height: 24px;
+}
+
+.container {
+	position: absolute;
+	width: 41.2rem;
+	background: radial-gradient(
+		98.96% 98.96% at 50% 0%,
+		#232a34 0%,
+		#181e27 100%
+	);
+	border-radius: 2rem;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.inner__wrapper {
+	padding: 3.8rem;
+}
+
+.star__icon {
+	margin-bottom: 3rem;
+}
+
+.star__icon__img {
+	align-self: flex-start;
+	padding: 1.5rem;
+	border-radius: 100px;
+	background-color: var(--color-dark-blue);
+}
+
+.rating__heading {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.rating__text {
+	max-width: 90%;
+	letter-spacing: -0.06px;
+}
+
+.rating-form__wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 2rem;
+}
+
+.form-control {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 5.1rem;
+	height: 5.1rem;
+	background-color: var(--color-dark-blue);
+	cursor: pointer;
+	border-radius: 50%;
+	line-height: 0.5;
+
+	&:hover {
+		background-color: var(--color-primary);
+		color: var(--color-white);
+	}
+}
+
+input[type='radio'] {
+	appearance: none;
+}
+
+input[type='radio']:checked + .form-control {
+	background-color: var(--color-light-grey);
+	color: var(--color-white);
+}
+
+.rating-form__btn {
+	background-color: var(--color-primary);
+	color: var(--color-white);
+	width: 100%;
+	border: none;
+	padding: 1.5rem 1.8rem;
+	border-radius: 100px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: 1rem;
+	cursor: pointer;
+	transition: all 0.05s;
+
+	&:hover {
+		background-color: var(--color-white);
+		color: var(--color-primary);
+	}
+}
+
+.thankyou__state {
+	text-align: center;
+
+	.inner__wrapper {
+		* + * {
+			margin-top: 3rem;
+		}
+
+		padding: 3.8rem;
+	}
+
+	.thankyou__text {
+		margin-top: 2rem;
+	}
+}
+
+.thankyou__sub {
+	background-color: var(--color-dark-blue);
+	padding: 1rem 2rem;
+	border-radius: 100px;
+	color: var(--color-primary);
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.hide {
+	display: none;
+}
+
+.attribution {
+	position: absolute;
+	bottom: 3rem;
+	left: 3rem;
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
