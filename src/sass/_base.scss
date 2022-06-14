@@ -7,8 +7,10 @@
 	--color-very-dark-blue: hsl(216, 12%, 8%);
 
 	--body-font-size: 1.5rem;
+	--body-font-size-mobile: 1.4rem;
 
 	--heading-font-size: 2.8rem;
+	--heading-font-size-mobile: 2.4rem;
 	--heading-font-color: var(--color-white);
 }
 
@@ -34,4 +36,8 @@ body {
 	line-height: 1.5;
 	background-color: black;
 	color: var(--color-light-grey);
+
+	@media screen and (max-width: 768px) {
+		font-size: var(--body-font-size-mobile);
+	}
 }
